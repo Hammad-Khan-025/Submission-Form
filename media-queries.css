@@ -1,0 +1,215 @@
+@media only screen and (min-width: 0px) and  (max-width: 575px){
+    
+    .main{
+        clip-path: polygon(0% 0%, 100% 0, 100% 95%, 80% 100%, 0% 100%);
+        
+    }
+    .container{
+    flex-direction: column;
+    padding: 20px 30px;
+    }
+    .image img{
+        margin: 10px 20px;
+    }
+    .column1{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .column2{
+        width: 100%;
+    }
+    .column1 h1{
+        font-size: 35px;
+        letter-spacing: 2px;
+    }
+    .column1 p{
+        line-height: 20px;
+        font-size: 14px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .column1 h2{
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .image{
+        width: 20%;
+    }
+    img{
+        width: 100%;
+        margin: 20px;
+    }
+
+    input[type="text"]{
+        height: 5vh;
+    }
+    textarea{
+        height: 12vh;
+    }
+    .column2 h2{
+        font-size: 18px;
+    }
+    .column2 p{
+        line-height: 20px;
+    }
+
+    .checkbox2{
+        margin-left: 80px;
+    }
+    .checkbox3{
+        margin-left: 55px;
+    }
+    .checkbox4{
+        margin-left: 37px;
+    }
+    .checkbox5{
+        margin-left: 37px;
+    }
+    .checkbox6{
+        margin-left: 43px;
+    }
+    .column2 input[type="text"],input[type="checkbox"],h3,p,textarea{
+        margin-bottom: 15px;
+    }
+
+    button{
+        width: 90%;
+        padding: 12px 3px;
+        font-size: 1em;
+        margin-top: 6,mm0px;
+    }
+}
+
+
+@media only screen and (min-width: 576px) and  (max-width: 767px){
+    .main{
+        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 75% 100%, 0% 100%);   
+    }
+    .container{
+    flex-direction: column;
+    padding: 20px 70px;
+    }
+    .column1{
+        width: 100%;
+        margin-top: 0px;
+    }
+    .column2{
+        width: 100%;
+    }
+    .column1 h1{
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+    .column1 p{
+        line-height: 20px;
+        font-size: 18px;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .column1 h2{
+        font-size: 20px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .image{
+        width: 15%;
+    }
+    img{
+        width: 100%;
+        margin: 20px;
+    }
+
+
+    .column2 h2{
+        font-size: 18px;
+    }
+    .column2 p{
+        line-height: 20px;
+    }
+
+    .column2 input[type="text"],input[type="checkbox"],h3,p,textarea{
+        margin-bottom: 20px;
+    }
+
+    .checkbox2{
+        margin-left: 80px;
+    }
+    .checkbox3{
+        margin-left: 55px;
+    }
+    .checkbox4{
+        margin-left: 37px;
+    }
+    .checkbox5{
+        margin-left: 37px;
+    }
+    .checkbox6{
+        margin-left: 43px;
+    }
+
+    button{
+        width: 80%;
+        padding: 14px 0px;
+        font-size: 1.2em;
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and  (max-width: 991px){
+    
+    .main{
+        clip-path: polygon(0% 0%, 100% 0, 100% 90%, 80% 100%, 0% 100%);   
+    }
+    .container{
+        padding: 30px;
+    }
+    .column1{
+        width: 50%;
+        margin-top: -60%;
+    }
+    .column1 h1{
+        font-size: 6vw;
+    }
+    .column1 h2{
+        font-size: 2.5vw;
+    }
+    .column1 p{
+        font-size: 2vw;
+    }
+    .column2{
+        width: 50%;
+    }
+    .column2 p{
+        font-size: 1.8vw;
+    }
+    button{
+        width: 85%;
+    }
+    .column2 input[type="text"],input[type="checkbox"],textarea{
+        margin-top: 15px;
+    }
+    .column1 p,h2{
+        line-height: 30px;
+        width: 88%;
+    }
+}
+
+@media only screen and (min-width: 992px) and  (max-width: 1200px){
+    .container{
+        padding: 50px;
+    }
+    .column1{
+        width: 50%;
+    }
+    .column2{
+        width: 50%;
+    }
+    .column1 p,h2{
+        line-height: 30px;
+        width: 85%;
+    }
+    button{
+        width: 85%;
+    }
+}
